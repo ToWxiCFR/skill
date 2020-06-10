@@ -1,9 +1,31 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-image: url(https://cdn.discordapp.com/attachments/282594013155164160/720006474465673226/r6s-bg-generic.jpg);
     
 }
 
-.Injureeed_skill{
+.Injureeed{
     text-align: center
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+h1{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+iframe{
+    width: 45%;
+    height: 90vh;
 }
